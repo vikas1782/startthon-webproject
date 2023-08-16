@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/stylesheets/styleaddprofile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="/profile">Profiles</a></li>
+                <li><a href="">addProfiles</a></li>
+            </ul>
+            <img id="menu-btn" src="images/home.png" alt="">
+        </div>
+    </nav>
+
+<body>
+    <h1>Add New Profile</h1>
+    <form action="/profile/add" method="POST" enctype="multipart/form-data" class="profile-form">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" name="name" id="name" required class="form-input"><br>
+        
+        <label for="expert" class="form-label">Expert:</label>
+        <input type="text" name="expert" id="expert" required class="form-input"><br>
+        <label for="expert" class="form-label">experience:</label>
+        <input type="text" name="experience" placeholder="Experience" required class="form-input"><br>
+        <label for="image" class="form-label">Image:</label>
+        <input type="file" name="image" id="image" accept=".jpg, .jpeg, .png" class="form-input"><br>
+        
+        <button type="submit" class="form-button">Add Profile</button>
+      </form>
+      
+      
+</body>
+</html>

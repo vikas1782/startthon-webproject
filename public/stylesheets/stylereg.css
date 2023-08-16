@@ -1,0 +1,129 @@
+/* You would link this CSS code in your HTML document using a <link> tag or an inline <style> tag */
+
+.login {
+    padding-top: 6rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.pt-24 {
+    padding-top: 6rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-xs {
+    max-width: 20rem;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.pt-6 {
+    padding-top: 1.5rem;
+}
+
+.pb-8 {
+    padding-bottom: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.text-red-500 {
+    color: #f56565;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-gray-700 {
+    color: #4a5568;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.leading-tight {
+    line-height: 1.25;
+}
+
+.focus\:outline-none:focus {
+    outline: none;
+}
+
+.focus\:shadow-outline:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.text-xs {
+    font-size: 0.75rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 9999px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.align-baseline {
+    vertical-align: baseline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-gray-500 {
+    color: #718096;
+}

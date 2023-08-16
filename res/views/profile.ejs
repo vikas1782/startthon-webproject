@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/stylesheets/styleprofile.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="/profile">Profiles</a></li>
+                <li><a href="profile/add">addProfiles</a></li>
+            </ul>
+            <img id="menu-btn" src="images/home.png" alt="">
+        </div>
+    </nav>
+
+
+    
+    <h1>All Profiles</h1>
+<% profiles.forEach(function(profile) { %>
+    <div class="profile-container">
+        <img class="profile-image" src="/images/<%= profile.image %>" alt="">
+        <div class="profile-info">
+            <h2 class="profile-name"><%= profile.name %></h2>
+            <span class="profile-expert"><%= profile.expert %></span>
+            <div class="flex items-center justify-around mt-6">
+                <span class="font-bold text-lg"><%= profile.experience %></span>
+                
+                <span>--</span>
+                <hr>
+                <a href="/mes" class="add-button">consult</a>
+
+            </div>
+        </div>
+    </div>
+<% }) %>
